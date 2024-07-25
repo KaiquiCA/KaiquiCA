@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario de Contato</title>
+</head>
+<body>
+    <section class="container">
+        <header>Formulario de Registro</header>
+        <form action="#" class="form">
+            <div class="input-box">
+                <label>Nome Completo</label>
+                <input type="text" placeholder="Seu nome completo" required>
+            </div>
+            <div class="input-box">
+                <label>Email</label>
+                <input type="email" placeholder="Seu email" required>
+            </div>
+
+            <div class="coluna">
+                <div class="input-box">
+                    <label>Número Tel.</label>
+                    <input type="text" placeholder="Seu telefone" required>
+                </div>
+                <div class="input-box">
+                    <label>Nascimento</label>
+                    <input type="date" placeholder="dd/mm/aaaa" required>
+                </div>
+            </div>
+
+            <div class="gender-box">
+                <h3>Gênero</h3>
+                <div class="select-box">
+                    <select>
+                        <option hidden>Gênero</option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>Prefiro não dizer</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="input-box endereco">
+                <label>Endereço</label>
+                <input type="text" placeholder="Código Postal" required>
+                <div class="coluna">
+                    <input type="text" placeholder="Seu Endereço" required>
+                    <input type="text" placeholder="Número" required>
+                </div>
+                <input type="text" placeholder="Seu Endereço 2">
+                <input type="text" placeholder="Complemento">
+                <div class="coluna">
+                    <div class="select-box">
+                        <select>
+                            <option hidden>País</option>
+                            <option>Angola</option>
+                            <option>Brasil</option>
+                            <option>Colombia</option>
+                            <option>Dinamarca</option>
+                        </select>
+                    </div>
+                </div>
+                <input type="text" placeholder="Sua Cidade" required>
+                <input type="text" placeholder="Seu Bairro" required>
+            </div>
+
+            <button>Registrar</button>
+        </form>
+    </section>
+</body>
+</html>
